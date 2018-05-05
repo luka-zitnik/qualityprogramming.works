@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Introducing Frontend Development Practices Into Your PHP
-date:   2018-05-02 21:51:43 +0200
+title: Introducing Frontend Development Practices Into Your PHP
+date: 2018-05-02 21:51:43 +0200
 background: /images/alexandre-godreau-203580-unsplash.jpg
 ---
 
@@ -11,9 +11,9 @@ The answer is yes. They are missing out everything. They should switch to JavaSc
 
 All right! You got me! I was just kidding. 😉
 
-This was actually a real question I was asked by my manager, twice. And twice I could remember only there must be some prominent features of [Composer](https://getcomposer.org/) that are missing in [Npm](https://docs.npmjs.com/) and [Yarn](https://yarnpkg.com/en/). Which could imply some differences in development practices. Only, to me, it's the other way round. Like the `npm publish` accepts anything from a working copy, which may differ from what's tagged, while [packagist.org](https://packagist.org/) can publish proactively when there's a new tag in the repo. Or that Composer lets you write custom commands as static methods and helps you with some nice contextual event objects along the way. Our conclusion was that both ecosystems are mature enought and close toghether enough to look up to each other all the time. I am wondering if there's more, so here's another try.
+This was actually a real question I was asked by my manager, twice. And twice I could remember only there must be some prominent features of [Composer](https://getcomposer.org/) that are missing in [Npm](https://docs.npmjs.com/) and [Yarn](https://yarnpkg.com/en/). They could imply some differences in development practices. Only, to me, it's the other way round. Like, the `npm publish` accepts anything from a working copy, which may differ from what's tagged, while [packagist.org](https://packagist.org/) can publish proactively when there's a new tag in the repo. Or that Composer lets you write custom commands as static methods and helps you with some nice contextual event objects along the way. We drew out a conclusion that both ecosystems are mature enought and close toghether enough to look up to each other all the time. I am wondering if there's more, so here's another try.
 
-I can't talk about language constructs. I must assume they are preset. And I can't consider programming patterns. They are task-specific. So that leaves tooling and libraries.
+For now, let's not talk about language features, as a more sensible thig to do. And let's not talk about programming patterns neither. They are task-specific after all. So that leaves tooling and libraries.
 
 ## Caches vs Watchers
 
@@ -29,7 +29,7 @@ Where's PHP there are usually also some frontend assets to manage and integratio
 
 ## Test Watchers
 
-[Jest](https://facebook.github.io/jest/en/) has spoiled the frontend community with it's [intelligent watcher](https://facebook.github.io/jest/docs/en/cli.html#watch). [Mocha](https://github.com/mochajs/mocha) and other test runners possibly as much. In PHP, [Peridot](http://peridot-php.github.io/) is up to the challenge, and beggining last year, there's [a watcher](https://github.com/spatie/phpunit-watcher) for PHPUnit tests.
+[Jest](https://facebook.github.io/jest/en/) has spoiled the frontend community with its [intelligent watcher](https://facebook.github.io/jest/docs/en/cli.html#watch). [Mocha](https://github.com/mochajs/mocha) and other test runners possibly as much. In PHP, [Peridot](http://peridot-php.github.io/) is up to the challenge, and beggining last year, there's [a watcher](https://github.com/spatie/phpunit-watcher) for PHPUnit tests.
 
 ## Afterword
 
