@@ -27,6 +27,9 @@ markdown: kramdown
 theme: jekyll-theme-clean-blog
 paginate: 10
 paginate_path: /posts/page:num/
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-118771405-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

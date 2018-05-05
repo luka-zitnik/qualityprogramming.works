@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-theme-clean-blog", "~> 4.0"
   gem "jekyll-paginate", "~> 1.1.0"
   gem "liquid-md5", "~> 0.0.3"
+  gem 'jekyll-analytics'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
