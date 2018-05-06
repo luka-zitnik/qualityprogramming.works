@@ -24,7 +24,6 @@ twitter_username: QP_works
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-clean-blog
 paginate: 10
 paginate_path: /posts/page:num/
 jekyll_analytics:
