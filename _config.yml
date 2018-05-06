@@ -16,7 +16,7 @@
 title: Quality Programming Works
 description: >- # this means to ignore newlines until "baseurl:"
   QualityProgramming.works is a blog on web developemnt, its trends and comparison of
-  encompassing technologies.
+  surrounding technologies.
 author: QualityProgramming.works
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
