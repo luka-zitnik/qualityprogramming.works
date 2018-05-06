@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   surrounding technologies.
 author: QualityProgramming.works
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://qualityprogramming.works" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://qualityprogramming.works" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: QP_works
 
 # Build settings
