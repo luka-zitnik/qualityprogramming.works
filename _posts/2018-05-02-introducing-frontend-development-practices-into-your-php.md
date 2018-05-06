@@ -9,9 +9,9 @@ Are there any frontend programming practices PHP guys are missing out? Could the
 
 The answer is yes. They are missing out everything. They should switch to JavaScript.
 
-All right! You got me! I was just kidding. 😉
+All right! You got me! 😉
 
-This was actually a real question I was asked by my manager, twice. And twice I could remember only there must be some prominent features of [Composer](https://getcomposer.org/) that are missing in [Npm](https://docs.npmjs.com/) and [Yarn](https://yarnpkg.com/en/). They could imply some differences in development practices. Only, to me, it's the other way round. Like, the `npm publish` accepts anything from a working copy, which may differ from what's tagged, while [packagist.org](https://packagist.org/) can publish proactively when there's a new tag in the repo. Or that Composer lets you write custom commands as static methods and helps you with some nice contextual event objects along the way. We drew out a conclusion that both ecosystems are mature enought and close toghether enough to look up to each other all the time. I am wondering if there's more, so here's another try.
+Actually, this was a real question I was asked by my manager, twice. And twice I could remember only there must be some prominent features of [Composer](https://getcomposer.org/) that are missing in [Npm](https://docs.npmjs.com/) and [Yarn](https://yarnpkg.com/en/). They could imply some differences in development practices. Only, to me, it's the other way round. Like, the `npm publish` accepts anything from a working copy, which may differ from what's tagged, while [packagist.org](https://packagist.org/) can publish proactively when there's a new tag in the repo. Or that Composer lets you write custom commands as static methods and helps you with some nice contextual event objects along the way. We drew out a conclusion that both ecosystems are mature enought and close toghether enough to look up to each other all the time. I am wondering if there's more, so here's another try.
 
 For now, let's not talk about language features, as a more sensible thig to do. And let's not talk about programming patterns neither. They are task-specific after all. So that leaves tooling and libraries.
 
