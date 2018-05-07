@@ -26,9 +26,7 @@ twitter_username: QP_works
 markdown: kramdown
 paginate: 10
 paginate_path: /posts/page:num/
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-118771405-1
+ga_id: UA-118771405-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

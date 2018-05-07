@@ -18,8 +18,6 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~> 1.1.0"
-  gem "liquid-md5", "~> 0.0.3"
-  gem "jekyll-analytics"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
