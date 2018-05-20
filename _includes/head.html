@@ -10,8 +10,8 @@
   <title>{{ site.title | escape }}</title>
   {% endif %}
 
-  {%if post.subtitle %}
-  <meta name="description" content="{{ post.subtitle }}">
+  {% if page.subtitle %}
+  <meta name="description" content="{{ page.subtitle }}">
   {% else %}
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   {% endif %}
