@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tips & Tricks From JSDay 2018
-tags: [JSDay 2018, Verona, Italy, conference, highlights, report, top talks, best talks, tips & tricks]
+subtitle: Our report from this year's JSDay conference in Verona, Italy. Find out which talks we've highlighted and consider the best, and replenish your toolbox with tips & tricks from the trenches of JavaScript.
 date: 2018-05-20
 background: /images/alexandre-godreau-203580-unsplash.jpg
 ---
