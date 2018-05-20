@@ -33,23 +33,74 @@ Another part of the talk was focused on mobile web performance optimizations. Pi
 
 The improvements they got are the improvements you might expect as well:
 
-Metric | Old Mobile Web | New Mobile Web
--------|----------------|---------------
-TTFP (Time to first paint) | 4.2s | 1.8s
-TTI (Time to interactive) | 23s | 5.6s
-JS Bundle Size | 620KB | 150KB
-CSS Bundle Size | 150KB | 6KB
+<table class="table">
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Old Mobile Web</th>
+      <th>New Mobile Web</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TTFP (Time to first paint)</td>
+      <td>4.2s</td>
+      <td>1.8s</td>
+    </tr>
+    <tr>
+      <td>TTI (Time to interactive)</td>
+      <td>23s</td>
+      <td>5.6s</td>
+    </tr>
+    <tr>
+      <td>JS Bundle Size</td>
+      <td>620KB</td>
+      <td>150KB</td>
+    </tr>
+    <tr>
+      <td>CSS Bundle Size</td>
+      <td>150KB</td>
+      <td>6KB</td>
+    </tr>
+  </tbody>
+</table>
 
 And consequently, their usage statistics ascended as well:
 
-Metric | Mweb Increase
--------|--------------
-Pin impressions | +299% y/y
-Ad Impressions | +290% y/y
-Signups | +704% y/y
-Logins | +172% y/y
-Repins | +279% y/y
-Time Spent | +289% y/y
+<table class="table">
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Mweb Increase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pin impressions</td>
+      <td>+299% y/y</td>
+    </tr>
+    <tr>
+      <td>Ad Impressions</td>
+      <td>+290% y/y</td>
+    </tr>
+    <tr>
+      <td>Signups</td>
+      <td>+704% y/y</td>
+    </tr>
+    <tr>
+      <td>Logins</td>
+      <td>+172% y/y</td>
+    </tr>
+    <tr>
+      <td>Repins</td>
+      <td>+279% y/y</td>
+    </tr>
+    <tr>
+      <td>Time Spent</td>
+      <td>+289% y/y</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Matteo Collina And Luca Maraschi, The Node.js Performance Workshop
 
@@ -87,13 +138,42 @@ A perfectly clear talk with a myriad of tips and tricks, just as the speaker pro
 
 Last part of the talk showed futuristic topics of code optimization with *Prepack*, Angular's *AOT* compilation, web components bundling instead of frameworks with *Svelte* and *Angular Ivy*, binary templates with *Svelte* and *Glimmer* but also what they mean in raw numbers in a Hacker news clone comparison example:
 
-Name | 3G TTI (SEC) | 2G TTI (SEC)
------|--------------|-------------
-PREACT | 1.5 | 1.92
-SVELTE | 2.2 | 2.5
-REACT (+DOM) | 2.09 | 2.57
-GLIMMER | 2.81 | 4.12
-ANGULAR | 3.2 | 4.3
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>3G TTI (SEC)</th>
+      <th>2G TTI (SEC)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PREACT</td>
+      <td>1.5</td>
+      <td>1.92</td>
+    </tr>
+    <tr>
+      <td>SVELTE</td>
+      <td>2.2</td>
+      <td>2.5</td>
+    </tr>
+    <tr>
+      <td>REACT (+DOM)</td>
+      <td>2.09</td>
+      <td>2.57</td>
+    </tr>
+    <tr>
+      <td>GLIMMER</td>
+      <td>2.81</td>
+      <td>4.12</td>
+    </tr>
+    <tr>
+      <td>ANGULAR</td>
+      <td>3.2</td>
+      <td>4.3</td>
+    </tr>
+  </tbody>
+</table>
 
 ## References
 
