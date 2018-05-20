@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tips & Tricks From JSDay 2018
+tags: [JSDay 2018, Verona, Italy, conference, highlights, report, top talks, best talks, tips & tricks]
 date: 2018-05-20
 background: /images/alexandre-godreau-203580-unsplash.jpg
 ---

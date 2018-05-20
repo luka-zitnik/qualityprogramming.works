@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing Frontend Development Practices Into Your PHP
+tags: [PHP, JavaScript, practices, comparison]
 date: 2018-05-02 21:51:43 +0200
 background: /images/alexandre-godreau-203580-unsplash.jpg
 ---
