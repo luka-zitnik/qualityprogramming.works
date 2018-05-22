@@ -2,7 +2,7 @@
 layout: post
 title: Introducing Frontend Development Practices Into Your PHP
 subtitle: Are frontend JavaScript and PHP development practices comparable?
-date: 2018-05-02 00:00:00 +0200
+date: 2018-05-02 00:00:00 +0000
 background: /images/alexandre-godreau-203580-unsplash.jpg
 ---
 
