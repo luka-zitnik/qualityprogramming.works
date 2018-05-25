@@ -27,6 +27,8 @@ markdown: kramdown
 paginate: 10
 paginate_path: /posts/page:num/
 ga_id: UA-118771405-1
+
+# Plugins list read by GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-paginate
