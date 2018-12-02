@@ -16,7 +16,7 @@ Yes, you can always find similarities, they are all design patterns that demand 
 
 ## Characteristics
 
-In order to stress the characteristics of the command pattern, I stole the *pattern form* from Dr. Christoph Fehling's dissertation <sup>[[1]](#ref-1)</sup>. And my sources, Wikipedia<sup>[[2]](#ref-2)</sup> and the HFDP book<sup>[[3]](#ref-3)</sup> thankfully contained all the elements of the form so the form could be reconstructed (imagining someone must have already published the pattern in a similar form already).
+In order to stress the characteristics of the command pattern, I stole the *pattern form* from Dr. Christoph Fehling's dissertation<sup>[[1]](#ref-1)</sup>. And my sources, Wikipedia<sup>[[2]](#ref-2)</sup> and the HFDP book<sup>[[3]](#ref-3)</sup> thankfully contained all the elements of the form so the form could be reconstructed (imagining someone must have already published the pattern in a similar form already).
 
 ### Intent
 
