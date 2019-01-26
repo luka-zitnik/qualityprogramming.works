@@ -18,7 +18,7 @@ For now, let's not talk about language features, as a more sensible thing to do.
 
 ## Caches vs Watchers
 
-PHP does involve some compiling sometimes. Routing configurations, service container configurations, templates and others imply some execution steps i.e. PHP statements. These are validated, generated, cached and read from cache with each app execution while developing the app. In my case that means I have to wait 3 extra seconds when I change routes, 10 extra seconds when I change service constructors and 3 extra seconds when I change templates.
+PHP does involve some compilation sometimes. Routing configurations, service container configurations, templates and others imply some equivalent PHP statements. Files are validated and code is generated, cached and interpreted from cache on subsequent page requests while an app is being developed. In my case that means I have to wait 3 extra seconds when I change routes, 10 extra seconds when I change service constructors and 3 extra seconds when I change templates.
 
 In comparison, watching for file changes and compiling in the background, like what I've seen in [Wecpack](https://webpack.js.org/), seems a more reasonable solution. If there's no obvious distinction between the build and the runtime, what's perceived is that the app behaves sluggishly in development.
 
